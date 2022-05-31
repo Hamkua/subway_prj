@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{ answer }}</h1>
+    <a href="{% url "index" %}">홈으로</a>
+
+    {% if result %}
+        <p>{{ past_distance }}km</p>
+        {% for name in result %}
+            <p>{{ name }}</p>
+        {% endfor %}
+        <p>{{ destination }}</p>
+    {% else %}
+        <p>경로가 없음!</p>
+    {% endif %}
+</body>
+</html>

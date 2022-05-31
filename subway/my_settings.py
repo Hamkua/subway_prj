@@ -1,0 +1,1 @@
+SECRET_KEY = 'pro(dy^!^a7cyb_o8b+o(vx6@6^a4!6aow^1#2x*u6+z4*2x1!'
